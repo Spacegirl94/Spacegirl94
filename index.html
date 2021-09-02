@@ -319,11 +319,13 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" action="marssocietykuwait@gmail.com" method="POST"  />
+                <div id="contactForm" >
+                <form action="marssocietykuwait@gmail.com" method="POST"  />
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
+                                <input type="hidden" name="_next" value="https://aalkhulaifi.github.io/thankyou.html">
                                  <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
                                 <input class="form-control" id="name" type="tel" placeholder="Your Name *" data-sb-validations="required" />
@@ -346,6 +348,7 @@
 
                             </div>
                         </div>
+                    </div>
                     </div>
                     <!-- Submit success message-->
                     <!---->
